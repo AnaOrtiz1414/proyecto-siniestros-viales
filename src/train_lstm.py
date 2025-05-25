@@ -93,5 +93,5 @@ model.fit(
     callbacks=[early_stop]
 )
 
-model.save("C:/Users/ANA/Documents/Maestria/Clase Deeplearning/Proyecto_siniestros/models/lstm_model.h5")
+model.save("C:\ProyectoSiniestros_Limpio/models/lstm_model.h5")
 print("✅ Modelo LSTM entrenado y guardado en models/lstm_model.h5")

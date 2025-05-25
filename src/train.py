@@ -90,5 +90,5 @@ model.fit(
 )
 
 # Guardar modelo
-model.save("C:/Users/ANA/Documents/Maestria/Clase Deeplearning/Proyecto_siniestros/models/mlp_model.h5")
+model.save("C:\ProyectoSiniestros_Limpio/models/mlp_model.h5")
 print("✅ Modelo entrenado y guardado en models/mlp_model.h5")

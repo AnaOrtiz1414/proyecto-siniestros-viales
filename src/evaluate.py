@@ -94,8 +94,8 @@ def evaluar_modelo(nombre_modelo):
         "auc_macro": float(roc_auc["macro"])
     }
 
-    os.makedirs("C:/Users/ANA/Documents/Maestria/Clase Deeplearning/Proyecto_siniestros/resultados", exist_ok=True)
-    ruta = f"C:/Users/ANA/Documents/Maestria/Clase Deeplearning/Proyecto_siniestros/resultados/{nombre_modelo.replace('.h5', '')}.json"
+    os.makedirs("C:\ProyectoSiniestros_Limpio/resultados", exist_ok=True)
+    ruta = f"C:\ProyectoSiniestros_Limpio/resultados/{nombre_modelo.replace('.h5', '')}.json"
     with open(ruta, "w") as f:
         json.dump(resumen, f, indent=4)
     print(f"\n💾 Resultados guardados en: {ruta}")

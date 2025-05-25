@@ -5,7 +5,7 @@ características categóricas y numéricas.
 
 ## 📁 Estructura del Proyecto
 
-```bash
+
 Proyecto_siniestros/
 ├── data/                    # Archivos CSV (Data_completa.csv)
 ├── models/                 # Modelos entrenados (mlp_model.h5, lstm_model.h5)
@@ -23,9 +23,8 @@ Proyecto_siniestros/
 ├── test_loader.py          # Código para validar que la data este bien cargada
 ├── .gitignore
 └── README.md               # Este archivo
-```
 
----
+
 
 ## ⚙️ Preparación de Datos
 

@@ -4,3 +4,5 @@ scikit-learn
 tensorflow
 matplotlib
 seaborn
+kagglehub
+imbalanced-learn

@@ -1,8 +1,13 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
+import kagglehub
 
-def cargar_datos(ruta_csv="C:/Users/ANA/Documents/Maestria/Clase Deeplearning/Proyecto_siniestros/data/Data_completa.csv"):
-    df = pd.read_csv(ruta_csv)
+def cargar_datos():
+    df = kagglehub.load_dataset(
+        kagglehub.KaggleDatasetAdapter.PANDAS,
+        "williamrrubio/data-siniestros-bogot-2015-2021",
+        "Data_completa.csv"
+    )
 
     # Convertir a datetime
     df['fecha'] = pd.to_datetime(df['fecha'], errors='coerce')

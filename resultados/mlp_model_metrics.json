@@ -1,0 +1,11 @@
+[
+  {
+    "modelo":"mlp_model.h5",
+    "accuracy":0.6397200698,
+    "macro_f1":250455.4516666401,
+    "auc_leve":0.5,
+    "auc_grave":0.5,
+    "auc_fatal":0.5,
+    "auc_macro":0.5
+  }
+]
